@@ -1,0 +1,191 @@
+/* body {
+  font-family: "Great Vibes", cursive;
+  font-family: "Poppins", sans-serif;
+} */
+/* 
+3D7E44
+97B953
+EEF0D1
+C69C5C
+7F4B1E
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #eef0d1;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+/* 
+  Header
+*/
+.header {
+  background-color: #c69c5c;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo a {
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.navbar .nav a {
+  margin-left: 30px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.banner-text {
+  color: #eef0d1;
+}
+
+.banner-text h2 {
+  font-size: 38px;
+}
+
+.banner-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.banner-text a {
+  background-color: #3d7e44;
+}
+
+.banner-img img {
+  max-width: 500px;
+}
+/* 
+  ####################
+*/
+
+/* 
+  Infor Section
+*/
+.infor-section {
+  padding: 50px 0 100px;
+}
+
+.infor-section h2 {
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;
+}
+
+.infor-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.infor-content-item {
+  max-width: 23%;
+  text-align: center;
+}
+
+.infor-content-item img {
+  max-width: 100%;
+  border: 3px solid #3d7e44;
+  border-radius: 20px;
+}
+/*
+  ####################
+ */
+
+/* 
+  Quote Section
+*/
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-section .container {
+  padding: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-section p {
+  color: #1f2937;
+  font-size: 26px;
+  font-style: italic;
+}
+
+.quote-section span {
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+/* 
+  ####################
+*/
+
+/* 
+  Signup banner
+*/
+.signup-banner {
+  background-color: #3d7e44;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+
+.signup-banner a {
+  border: 2px solid #e5e7eb;
+}
+/* 
+  ####################
+*/
+
+/* 
+  Footer
+*/
+.footer {
+  color: #e5e7eb;
+  background-color: #c69c5c;
+  text-align: center;
+  padding: 20px 0;
+}
+/* 
+  ####################
+*/
